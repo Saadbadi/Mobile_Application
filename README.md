@@ -1,1 +1,2 @@
 # Mobile_Application
+With Google's brand-new cross-platform mobile development framework, Flutter, programmers can create apps for both iOS and Android using a single codebase. Flutter is the BEST way to develop cross-platform apps that otherwise would require two diffrent mobile development teams to create. By the end of this course, you will be an experienced Dart programmer, capable of creating your own Flutter apps, and ready to take on the role of full-fledged Flutter developer.
