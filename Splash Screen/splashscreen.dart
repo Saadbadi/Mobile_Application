@@ -39,15 +39,24 @@ class _SplashScreenState extends State<SplashScreen> {
       print("first launch"); // move to some other page
     }
     else {
-      Navigator.push(context, MaterialPageRoute(builder: (context)=>Screen2()));
+      Timer(const Duration(seconds: 3),
+              ()=>Navigator.pushReplacement(context,
+              MaterialPageRoute(builder:
+                  (context) =>
+                  Screen2()
+              )
+          )
+      );
 
       print("Not first launch");
     }
   }
 
 
+void splash()
+{
 
-
+}
   @override
   Widget build(BuildContext context) {
     return Container(
